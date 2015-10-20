@@ -19,26 +19,26 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 `$ git log --oneline --decorate --color --graph --all` - it displays the logs of your previous commits with color decorations and in one line only. 
 
-`$ git log -p [filename]` Logs what happens in between commits
+`$ git log -p [filename]` __Fill Me Out__
 
 #### Stage files to commit
-`$ git add <filename>` - Stages the file to be added to the repository
+`$ git add <filename>` - __Fill Me Out__
 
-`$ git add -A` - Stages the current directory to be added to the repository
+`$ git add -A` - __Fill Me Out__
 
 #### Commit changes in staged files
-`$ git commit -m "<commit message>"` - Adds the staged file to the repository with a message describing the changes
+`$ git commit -m "<commit message>"` - __Fill Me Out__
 
 #### Branching
-`$ git branch <branch name>` - Creates a new local branch.
+`$ git branch <branch name>` - __Fill Me Out__
 
-`$ git branch` - Shows the branches.
+`$ git branch` - __Fill Me Out__
 
-`$ git checkout <branch name>` - Switches to this branch.
+`$ git checkout <branch name>` - __Fill Me Out__
 
 #### Merging
 
-`$ git merge <branch name>` - Merges this branch with the master
+`$ git merge <branch name>` - __Fill Me Out__
 
 ## Commands for working with a remote repository (e.g. Github)
 
@@ -53,8 +53,9 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git push <remote name> <branch name>` - Send your changes to the remote to be merged.
 
 
-###Making Comman Lines Shortcuts
+###Making Command Lines Shortcuts
 `git config --global alias` - this either sets up an alias for a specific command or create a whole new command. 
 
 Example:
+
 `git config --global alias.<the alias of your choice> <the original command>`
