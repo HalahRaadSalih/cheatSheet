@@ -51,3 +51,10 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git pull <remote name> <branch name>` - Pull down changes from a remote and integrate them into your repo. Performs `git fetch` and then `git merge`.
 
 `$ git push <remote name> <branch name>` - Send your changes to the remote to be merged.
+
+
+###Making Comman Lines Shortcuts
+`git config --global alias` - this either sets up an alias for a specific command or create a whole new command. 
+
+Example:
+`git config --global alias.<the alias of your choice> <the original command>`
