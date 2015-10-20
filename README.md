@@ -39,3 +39,15 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Merging
 
 `$ git merge <branch name>` - __Fill Me Out__
+
+## Commands for working with a remote repository (e.g. Github)
+
+`$ git clone <repo path or URL>` - clone a repository into a new directory.
+
+`$ git remote` - List all remotes for the current repo.
+
+`$ git remote add <remote name> <remote path or URL>` - adds a remote to your repo.
+
+`$ git pull <remote name> <branch name>` - Pull down changes from a remote and integrate them into your repo. Performs `git fetch` and then `git merge`.
+
+`$ git push <remote name> <branch name>` - Send your changes to the remote to be merged.
