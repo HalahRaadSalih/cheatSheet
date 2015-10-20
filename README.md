@@ -19,15 +19,15 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 `$ git log --oneline --decorate --color --graph --all` - it displays the logs of your previous commits with color decorations and in one line only. 
 
-`$ git log -p [filename]` __Fill Me Out__
+`$ git log -p [filename]` Logs what happens in between commits
 
 #### Stage files to commit
-`$ git add <filename>` - __Fill Me Out__
+`$ git add <filename>` - Stages the file to be added to the repository
 
-`$ git add -A` - __Fill Me Out__
+`$ git add -A` - Stages the current directory to be added to the repository
 
 #### Commit changes in staged files
-`$ git commit -m "<commit message>"` - __Fill Me Out__
+`$ git commit -m "<commit message>"` - Adds the staged file to the repository with a message describing the changes
 
 #### Branching
 `$ git branch <branch name>` - __Fill Me Out__
