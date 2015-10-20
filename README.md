@@ -15,7 +15,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git diff` - __Fill Me Out__
 
 #### Repo History
-`$ git log` - __Fill Me Out__
+`$ git log` - it displays the logs of your commits with each commit ID, auther, date and message.
 
 `$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
 
