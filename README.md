@@ -54,8 +54,6 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 
 ###Making Command Lines Shortcuts
-`git config --global alias` - this either sets up an alias for a specific command or create a whole new command. 
+`$git config --global alias.<the alias of your choice> <the original command>` - this either sets up an alias for a specific command or create a whole new command. 
 
-Example:
 
-`git config --global alias.<the alias of your choice> <the original command>`
