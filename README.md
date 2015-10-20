@@ -30,15 +30,15 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git commit -m "<commit message>"` - Adds the staged file to the repository with a message describing the changes
 
 #### Branching
-`$ git branch <branch name>` - __Fill Me Out__
+`$ git branch <branch name>` - Creates a new local branch.
 
-`$ git branch` - __Fill Me Out__
+`$ git branch` - Shows the branches.
 
-`$ git checkout <branch name>` - __Fill Me Out__
+`$ git checkout <branch name>` - Switches to this branch.
 
 #### Merging
 
-`$ git merge <branch name>` - __Fill Me Out__
+`$ git merge <branch name>` - Merges this branch with the master
 
 ## Commands for working with a remote repository (e.g. Github)
 
