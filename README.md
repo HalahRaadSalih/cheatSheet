@@ -17,7 +17,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Repo History
 `$ git log` - it displays the logs of your commits with each commit ID, auther, date and message.
 
-`$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
+`$ git log --oneline --decorate --color --graph --all` - it displays the logs of your previous commits with color decorations and in one line only. 
 
 `$ git log -p [filename]` __Fill Me Out__
 
