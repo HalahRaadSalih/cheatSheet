@@ -12,7 +12,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Repo Status
 `$ git status` - Check the status of your current repository and see which files have changed.
 
-`$ git diff` - __Fill Me Out__
+`$ git diff` - it compares two files and outputs the difference between them
 
 #### Repo History
 `$ git log` - it displays the logs of your commits with each commit ID, auther, date and message.
